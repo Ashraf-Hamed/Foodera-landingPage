@@ -1,0 +1,1212 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+    
+}
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.dashboard {
+    background-color: #a82d49 ;
+    padding: 20px 0;
+    height: auto;
+    text-align: center;
+    overflow: hidden;
+    max-width: 100%;
+
+}
+
+.dashboard .row {
+    margin: 20px 0;
+}
+
+.dashboard h2 {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #fff;
+}
+
+.dashboard p {
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1px;
+    
+}
+
+
+
+.about {
+    
+    background: #fff;
+    background-size: cover ;
+    padding: 100px 0 ;
+}
+
+
+
+.about img {
+    width: 90%;
+    border-radius: 8px;
+}
+
+.about-content {
+    text-align: left;
+    padding: 25px 0;
+}
+
+.about-content  h2 {
+    font-weight: bold;
+    width: 80%;
+    line-height: 40px;
+}
+
+.about-content  p {
+    margin-top: 20px;
+    line-height: 25px;
+    width: 80%;
+    color: #777;
+}
+
+
+.about-content .btn {
+    border-radius: 0;
+    width: 140px;
+    height: 45px;
+    margin-top: 25px;
+    background-color: #a82d49;
+    border: 1px solid #a82d49;
+    font-weight: bold;
+    transition: 0.3s ease all;
+  
+}
+
+.about-content .btn:hover {
+    background-color: #fff;
+    color: #a82d49;
+    border: 2px solid #a82d49; 
+
+      
+}
+
+
+
+    
+
+
+.ingredients {
+    background: #fff;
+    padding: 80px 0;
+}
+
+.ingredients h2{
+    width: 100%;
+    font-weight: bold;
+    line-height: 45px;
+    margin-top: 40px;
+}
+
+.ingredients p{
+    width: 100%;
+    margin-bottom: 40px;
+    line-height: 30px;
+    color: #777;
+}
+
+.ingredients .lists {
+    text-align: left;
+    padding-left: 0 ;
+    margin-bottom: 25px;
+}
+
+
+.ingredients .lists li {
+    margin-bottom: 10px;
+    
+}
+
+.ingredients .lists li i {
+    margin-right: 10px;
+    vertical-align: middle;
+    font-size: 30px;
+    font-weight: 900 ; 
+    color: #a82d49;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.ingredients .btn {
+    border-radius: 0;
+    color: #fff;
+    background-color: #a82d49;
+    border: 3px solid #a82d49;
+  margin-top: 10px;
+  transition: .5s ease;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 8px 25px;
+}
+
+.ingredients .btn:hover {
+
+    background-color: #fff;
+    color: #a82d49;
+    border: 3px solid #a82d49;  
+}
+
+.ingredients img {
+    width: 90%;
+   
+}
+
+
+
+
+.story {
+    background-image: url('../../assets/1.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 400px;
+    text-align: center;
+    padding: 30px 0;
+    
+}
+
+
+.story h1 {
+    font-size: 30px;
+    font-weight: bold;
+    width: 90%;
+    margin: 10px 0;
+    color: #77132b;
+    line-height: 50px;
+}
+.story p {
+    color :#777 ;
+    line-height: 40px;
+    margin: 40px;
+}
+.story a {
+
+    color: #77132b;
+    font-size: 18px;
+    margin: 20px 0;
+    text-decoration: none;
+    color: black;
+    transition: 0.3s ease;
+   
+}
+
+.story a i {
+    font-size: 30px;
+    vertical-align: bottom;
+    margin-right: 8px;
+}
+
+
+.story a:hover {
+    color: #77132b;
+}
+
+
+.explore {
+    padding: 100px 0;
+    
+}
+
+.explore .head {
+    text-align: center;
+    width: 50%;
+    margin:  auto;
+    line-height: 30px;
+}
+
+.explore .head h1 {
+    font-weight: bold;
+}
+
+.explore .head p {
+   color :#777 ;
+   margin-bottom: 50px ;
+}
+
+.box .title {
+    color: #a82d49;
+    font-weight: bold !important;
+    font-size: 20px !important;
+    margin: 0;
+}
+
+.box span {
+    color: #777;
+    font-size: 17px;
+}
+
+.box  .price {
+    font-size: 25px ;
+    margin: 25px 0;
+    font-weight: bold;
+    color: #a82d49;
+
+}
+
+.box .btn {
+    background-color: #a82d49;
+    border: 3px solid #a82d49;
+    color :#fff ;
+    border-radius: 0;
+    font-size: 18px;
+    padding: 8px 25px;
+    transition: 0.3s ease;
+}
+
+.box .btn:hover {
+    background-color: #fff;
+    border: 3px solid #a82d49;
+    color :#a82d49 ;
+}
+
+
+
+
+
+.Testimonials {
+    background-color: #a82d49;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.Testimonials  h1 {
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.Testimonials  img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 180px;
+}
+
+.Testimonials  .slide {
+    background-color: #fff ;
+    padding: 80px 0 ;
+    color: #77132b;
+    border-radius: 9px;
+    margin: 40px 0;
+
+}
+
+
+.carousel-item  h3{
+    color: #000 ;
+    line-height: 30px;
+    font-size: 17px;
+    
+}
+.Testimonials .carousel-item  span {
+    color: #77132b;
+    display: block;
+    margin: 15px 0;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+
+
+
+.Testimonials .carousel-indicators  {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 15;
+    display: flex;
+    justify-content: center;
+    padding-left: 0 ;
+    margin-right: 15% ;
+    margin-left: 15% ;
+    list-style: none;
+
+}
+
+
+.Testimonials .carousel-indicators button {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: red;
+    border: 1px solid green;
+    margin: 5px 5px 15px 5px;
+}
+
+
+
+.Question {
+    padding: 80px 0;
+}
+
+.Question h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: bold;
+    color: #77132b;
+}
+
+.Question .top ,.Question .bottom  {
+    margin-bottom: 22px;
+    width: 80%;
+}
+
+.Question h2 {
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.Question h2 span {
+    color: #a82d49;
+    margin-right: 5px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.Question p {
+    color: #777;
+    line-height: 30px;
+}
+
+
+.passion {
+    padding: 80px 0;
+    background-image: url('../../assets/2\ \(1\).jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    position: relative;
+    
+}
+
+.passion .overlay{
+    position: absolute;
+    left: 0;
+    top :0 ;
+    width: 100%;
+    height: 100%;
+   background-color: #000;
+   opacity: 0.4;
+
+}
+
+
+.passion h2 {
+    color: #fff;
+position: relative;
+}
+
+
+.passion .btn {
+    background-color: #a82d49;
+    color: #fff;
+    border: 1px solid #a82d49;
+    padding: 8px 20px; 
+    border-radius: 0;
+    cursor: pointer;
+    position: relative;
+}
+
+.passion .btn:hover {
+     background-color: #fff;
+     color: #a82d49;
+     border: 1px solid #fff;
+}
+
+
+.Subscribe {
+    padding: 100px 0;
+    text-align: center;
+}
+
+
+.Subscribe h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.Subscribe p {
+ font-size: 18px;
+ color: #777;
+ margin-bottom: 25px;
+}
+.Subscribe input {
+height: 50px;
+padding: 0 20px;
+font-size: 14px;
+width: 40%;
+background-color: transparent;
+border: 3px solid #e5e5e5;
+color: #000;
+font-weight: 700;
+margin-right: 25px;
+
+}
+
+.Subscribe .subcribe {
+
+    position: relative;
+    top: 0px;
+    right: 0px;
+    width: 20%;
+    font-size: 14px;
+    height: 50px;
+    background-color: #a82d49;
+    color:#fff;
+    border: 3px solid #a82d49;
+    font-size: 20px;
+    transition: 0.3s ease;
+}
+
+.Subscribe .subcribe:hover {
+    background-color: #FFF;
+    color:#a82d49;
+    border: 3px solid #a82d49;
+}
+
+.footer {
+    background-color: #a82d49;
+    padding:50px 0;
+    text-align: center;
+}
+
+
+.footer ul {
+    list-style: none;
+    margin-bottom: 25px;
+}
+
+
+.footer ul li {
+    display: inline-block;
+    margin-right: 25px;
+   
+    
+}
+
+.footer ul li a {
+color: #FFF;
+font-size: 20px;
+text-decoration: none;
+
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer .social {
+    color: #FFF;
+    font-size: 24px;
+}
+
+.footer .social i {
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.footer p {
+    color: #FFF;
+    margin-top: 25px;
+}
+
+
+
+
+@media screen and (min-width: 769px) and (max-width: 991px) {
+
+    .dashboard {
+       
+        padding: 15px 0px ;
+    
+    }
+    
+    .dashboard .row {
+        margin: 15px 0px;
+    }
+    
+    .dashboard h2 {
+        font-size: 40px;
+        margin: 8px 0;
+    }
+
+
+
+    .about {
+    
+        padding: 80px 0 ;
+    }
+    
+    
+    
+    .about img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .about-content {
+
+        padding: 20px 0;
+    }
+    
+    .about-content  h2 {
+      
+        width: 90%;
+        line-height: 35px;
+    }
+    
+    .about-content  p {
+        margin-top: 18px;
+        line-height: 20px;
+        width: 100%;
+    
+    }
+    
+    
+    .about-content .btn {
+        
+        width: 130px;
+        height: 40px;
+        margin-top: 22px;
+
+      
+    }
+    
+
+    
+.ingredients {
+    padding: 30px 0;
+}
+
+.ingredients h2{
+  
+    line-height: 40px;
+    margin-top: 0px;
+    width: 80%;
+}
+
+.ingredients p{
+    width: 80%;
+
+}
+
+.ingredients .lists {
+    margin-bottom: 20px;
+}
+
+
+.ingredients .lists li {
+    margin-bottom: 8px;
+    
+}
+
+.ingredients .lists li i {
+    margin-right: 7px;
+    font-size: 23px;
+ 
+    
+}
+
+
+.ingredients .btn {
+
+  margin-top: 8px;
+  font-size: 15px;
+  padding: 6px 20px;
+}
+
+
+
+.ingredients img {
+    width: 100%;
+   
+}
+    
+
+.story {
+    height: auto !important;
+    text-align: center;
+    padding: 20px 0 !important;
+    
+}
+
+
+.story h1 {
+    font-size: 25px !important;
+    margin: 0 !important;
+    color: #77132b;
+    line-height: 45px !important;
+}
+.story p {
+    color :#333 !important ;
+    line-height: 40px;
+    margin: 10px auto !important;
+}
+
+.story a {
+
+    color: #77132b;
+    font-size: 18px;
+    margin: 5px 0 !important;
+
+   
+}
+
+.story a i {
+    font-size: 25px !important;
+    vertical-align: middle !important;
+    margin-right: 5px !important;
+}
+
+
+
+.explore {
+    padding: 70px 0;
+    
+}
+
+.explore .head {
+    text-align: center;
+    width: 100%;
+}
+
+.explore .head h1 {
+    font-size: 30px;
+}
+
+.explore .head p {
+   width: 80%;
+   margin: 25px auto ;
+}
+
+
+.card {
+    margin-bottom: 10px !important;
+}
+
+
+.box .title {
+    font-size: 18px !important;
+}
+
+.box span {
+
+    font-size: 15px;
+}
+
+.box  .price {
+    font-size: 20px ;
+    margin: 20px 0;
+
+}
+
+.box .btn {
+
+   
+    font-size: 15px;
+    padding: 6px 18px;
+  
+}
+
+
+
+
+
+.Testimonials {
+ 
+    padding: 30px 0;
+}
+
+.Testimonials  h1 {
+    
+    margin-bottom: 10px;
+}
+
+.Testimonials  img {
+    margin-bottom: 200px;
+}
+
+.Testimonials  .slide {
+    padding: 25px 0 ;
+    margin: 25px 0;
+
+}
+
+
+.carousel-item  h3{
+    color: #000 ;
+    line-height: 25px;
+    font-size: 15px;
+    
+}
+.Testimonials .carousel-item  span {
+    margin: 12px 0;
+}
+
+
+
+.Question {
+    padding: 50px 0 !important;
+}
+
+.Question h1 {
+    margin-bottom: 30px !important; 
+}
+
+.Question .top ,.Question .bottom  {
+    margin-bottom: 22px;
+    width: 100% !important;
+    background-color: #eee ;
+    padding: 10px 20px;
+}
+
+.Question h2 {
+    font-size: 18px !important;
+    
+}
+
+.Question h2 span {
+    font-size: 20px !important;
+}
+
+.Question p {
+    line-height: 25px !important;
+}
+
+
+
+.passion {
+    padding: 50px 0;
+}
+
+
+
+.passion h2 {
+font-size: 25px;
+}
+
+
+.passion .btn {
+    padding: 6px 16px;
+}
+
+
+
+.Subscribe {
+    padding: 70px 0;
+    
+}
+
+
+.Subscribe h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.Subscribe p {
+ font-size: 15px;
+ margin-bottom: 20px;
+}
+.Subscribe input {
+height: 40px;
+padding: 0 15px;
+font-size: 13px;
+width: 35%;
+
+
+}
+
+.Subscribe .subcribe {
+
+    width: 20%;
+    font-size: 15px !important;
+    height: 40px;
+    font-size: 20px;
+}
+
+
+.footer {
+    padding:30px 0;
+}
+
+
+.footer ul {
+    
+    margin-bottom: 20px;
+}
+
+
+.footer ul li {
+    margin-right: 20px;   
+}
+
+.footer ul li a {
+
+font-size: 18px;
+
+}
+
+.footer .social {
+    color: #FFF;
+    font-size: 20px;
+}
+
+.footer .social i {
+    margin-right: 18px;
+    margin-bottom: 5px;
+}
+
+.footer p {
+    color: #FFF;
+    margin-top: 20px;
+}
+
+
+
+
+
+    
+}
+
+@media screen and (max-width: 768px) { 
+
+
+    
+    .about {
+    
+        padding: 50px 0 ;
+    }
+    
+    
+    
+    .about img {
+        width: 100%;
+        object-fit: cover;
+        margin-bottom: 10px;
+    }
+    
+    .about-content {
+
+        padding: 10px 0;
+        text-align: center;
+    }
+    
+    .about-content  h2 {
+      
+        width: 100%;
+    }
+    
+    .about-content  p {
+        margin-top: 16px;
+        line-height: 20px;
+        width: 100%;
+    
+    }
+    
+    
+    .about-content .btn {
+        
+        width: 130px;
+        height: 40px;
+        margin-top: 12px;
+
+      
+    }
+
+
+    
+    
+.ingredients {
+    padding: 25px 0;
+}
+
+.ingredients h2{
+  
+    line-height: 35px;
+    margin-top: 0px;
+    width: 100%;
+}
+
+.ingredients p{
+    width: 100%;
+
+}
+
+.ingredients .lists {
+    margin-bottom: 18px;
+}
+
+
+.ingredients .lists li {
+    margin-bottom: 8px;
+    
+}
+
+.ingredients .lists li i {
+    margin-right: 7px;
+    font-size: 20px;
+ 
+    
+}
+
+
+.ingredients .btn {
+
+  font-size: 15px;
+  padding: 5px 18px;
+}
+
+
+    
+
+.story {
+    height: auto !important;
+    padding: 15px 0 !important;
+    
+}
+
+
+.story h1 {
+    font-size: 22px !important;
+   line-height: 35px;
+}
+.story p {
+    color :#333 !important ;
+    line-height: 30px;
+    margin: 8px auto !important;
+    font-size: 14px;
+}
+
+.story a {
+
+    font-size: 17px;
+
+   
+}
+
+.story a i {
+    font-size: 22px !important;
+}
+
+
+.explore {
+    padding: 50px 0;
+    
+}
+
+.explore .head {
+    width: 100%;
+}
+
+.explore .head h1 {
+    font-size: 25px;
+}
+
+.explore .head p {
+   width: 80%;
+   margin: 20px auto ;
+   line-height: 25px;
+}
+
+
+.card {
+    margin-bottom: 15px !important;
+}
+
+
+.box .title {
+    font-size: 17px !important;
+}
+
+.box span {
+
+    font-size: 14px;
+}
+
+.box  .price {
+    font-size: 19px ;
+    margin: 20px 0;
+
+}
+
+.box .btn {
+
+   
+    font-size: 15px;
+    padding: 5px 15px;
+  
+}
+
+
+.Testimonials {
+ 
+    padding: 25px 0;
+}
+
+.Testimonials  h1 {
+    
+    margin-bottom: 10px;
+}
+
+.Testimonials  img {
+    margin-bottom: 15rem;
+}
+
+.Testimonials  .slide {
+    padding: 20px 0 ;
+    margin: 20px 0;
+
+}
+
+
+.carousel-item  h3{
+
+    line-height: 22px;
+    
+    
+}
+
+
+
+.Question {
+    padding: 50px 0 !important;
+}
+
+.Question h1 {
+    margin-bottom: 30px !important; 
+}
+
+.Question .top ,.Question .bottom  {
+    margin-bottom: 22px;
+    width: 100% !important;
+    background-color: #eee ;
+    padding: 10px 20px;
+}
+
+.Question h2 {
+    font-size: 18px !important;
+    
+}
+
+.Question h2 span {
+    font-size: 20px !important;
+}
+
+.Question p {
+    line-height: 25px !important;
+}
+
+
+.passion {
+    padding: 40px 0;
+    text-align: center;
+}
+
+
+.passion .btn {
+    padding: 6px 16px;
+    margin-top: 10px;
+}
+
+
+
+.Subscribe {
+    padding: 70px 0;
+    
+}
+
+
+.Subscribe h1{
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.Subscribe p {
+ font-size: 15px;
+ margin-bottom: 20px;
+}
+.Subscribe input {
+height: 40px;
+padding: 0 15px;
+font-size: 13px;
+width: 90%;
+margin-bottom: 10px;
+
+}
+
+.Subscribe .subcribe {
+
+    width: 50%;
+    font-size: 15px !important;
+    height: 40px;
+    font-size: 20px;
+}
+
+
+.footer {
+    padding:25px 0;
+}
+
+
+.footer ul {
+    
+    margin-bottom: 18px;
+}
+
+
+.footer ul li {
+    margin-right: 18px;   
+}
+
+.footer ul li a {
+
+font-size: 16px;
+
+}
+
+.footer .social {
+    color: #FFF;
+    font-size: 17px;
+}
+
+
+
+.footer p {
+    color: #FFF;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
